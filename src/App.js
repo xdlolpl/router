@@ -10,10 +10,12 @@ import { Route, Routes, useNavigate, Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 
 
+// const [search, setSearch] = useState('')
+
 const App =()=> {
   return (
     <div className="App">
-        <Header />
+        <Header title="Blog React Hubert Miłuch"/>
         <Nav />
         <Routes>
           <Route exact path='/' element={<Home />} />
